@@ -4,7 +4,7 @@ from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from selenium.webdriver.chrome.options import Options
 
 
-class AbstractBrowser(object):
+class AbstractBrowser(object): # HOLLA
     def __init__(self,
                  name,
                  webdriver_class = None,
